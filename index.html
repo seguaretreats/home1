@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SÉGUA</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <style>
+        /* Estilo elemental para réplica 100% */
+        body, html { margin: 0; padding: 0; width: 100%; background: #fff; overflow-x: hidden; }
+        
+        /* Contenedor del Hero Video */
+        .hero { position: relative; width: 100%; height: 100vh; overflow: hidden; background: #000; }
+        .hero iframe {
+            position: absolute; top: 50%; left: 50%; width: 100vw; height: 56.25vw; 
+            min-height: 100vh; min-width: 177.77vh; transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        /* Contenedor de imágenes para que no haya espacios entre ellas */
+        .img-container { width: 100%; display: block; line-height: 0; }
+        .img-container img { width: 100%; height: auto; display: block; margin: 0; padding: 0; border: none; }
+
+        /* Botón de Reservas (Ubicación estándar de Canva) */
+        .btn-reserva {
+            position: fixed; bottom: 30px; right: 30px; background: #1a1a1a; color: #fff;
+            padding: 15px 25px; text-decoration: none; text-transform: uppercase;
+            font-family: sans-serif; font-size: 11px; letter-spacing: 2px; z-index: 999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <iframe src="https://www.youtube.com/embed/qNOxXMT986M?autoplay=1&mute=1&loop=1&playlist=qNOxXMT986M&controls=0&showinfo=0&rel=0&modestbranding=1" 
+                frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    </div>
+
+    <div class="img-container"><img src="1.png"></div>
+    <div class="img-container"><img src="2.png"></div>
+    <div class="img-container"><img src="3.png"></div>
+    <div class="img-container"><img src="4.png"></div>
+    <div class="img-container"><img src="5.png"></div>
+    <div class="img-container"><img src="6.png"></div>
+    <div class="img-container"><img src="7.png"></div>
+    <div class="img-container"><img src="8.png"></div>
+    <div class="img-container"><img src="9.png"></div>
+    <div class="img-container"><img src="10.png"></div>
+
+    <a href="mailto:reservas@seguaretreats.com" class="btn-reserva">Reservar</a>
+
+</body>
+</html>
